@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <form action="/contact/" method="post">
     {% csrf_token %}
     {% for field in form %}
@@ -8,3 +9,6 @@
     {% endfor %}
     <input type="submit" value="Submit">
  </form>
+
+
+ 
